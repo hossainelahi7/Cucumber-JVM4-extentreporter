@@ -17,7 +17,7 @@ import cucumber.api.SnippetType;
         plugin = {"pretty", 
         		"html:target/cucumber", 
         		"json:target/cucumber/cucumber.json",
-        		"junit:target/cucumber/cucumber.xml"
+        		"junit:target/cucumber/cucumber.xml",
         		"com.sitture.ExtentFormatter:target/output/extent-report/index.html"}
 )
 public class TestRunner {
