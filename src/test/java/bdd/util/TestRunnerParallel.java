@@ -2,12 +2,7 @@ package bdd.util;
 
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-
-import cucumber.api.CucumberOptions;
-import cucumber.api.SnippetType;
 import cucumber.api.cli.Main;
-import cucumber.api.junit.Cucumber;
 
 
 

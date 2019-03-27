@@ -10,7 +10,7 @@ import cucumber.api.SnippetType;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources"},
+        features = {"src/test/resources/Features"},
         glue = {"bdd.steps" }, 
         snippets = SnippetType.CAMELCASE,
         plugin = {"pretty", 
