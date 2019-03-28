@@ -4,12 +4,10 @@
 	<groupId>com.sample.bdd</groupId>
 	<artifactId>BDDSample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<test.thread.count>1</test.thread.count>
+	</properties>
 	<dependencies>
-		<dependency>
-			<groupId>com.sitture</groupId>
-			<artifactId>cucumber-jvm-extentreport</artifactId>
-			<version>3.1.2</version>
-		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -45,12 +43,6 @@
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
 			<version>3.0.0</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>io.cucumber</groupId>
-			<artifactId>cucumber-picocontainer</artifactId>
-			<version>3.0.2</version>
 			<scope>test</scope>
 		</dependency>
 		<!-- <dependency> <groupId>com.google.guava</groupId> <artifactId>guava</artifactId> 
