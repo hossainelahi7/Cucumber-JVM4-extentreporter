@@ -4,3 +4,8 @@ Its Cucumber test running in Parallal
 Running as basic Junit test
 Using Nativ Junit reporting that can easility integrate to any other reporting tool if required.
 Sharing test context and Java Objects through out different step file is also another challenge I tried to solve here.
+```
+mvn clean install -Dtest.thread.count=2
+```
+to run all test scripts. 
+### Happy testing....
