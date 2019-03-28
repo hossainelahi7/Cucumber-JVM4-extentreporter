@@ -89,6 +89,7 @@
 								<include>**/TestRunner.java</include>
 							</includes>
 							<parallel>all</parallel>
+							<!--mvn clean install -Dtest.thread.count=1 -->
 							<threadCount>${test.thread.count}</threadCount>
 							<perCoreThreadCount>false</perCoreThreadCount>
 						</configuration>

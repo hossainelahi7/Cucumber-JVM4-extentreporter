@@ -1,8 +1,9 @@
 Feature: Second Feature
 
   Scenario: My First Scenario
-    Given I have 10 cukes in my belly
-    Then I print out the results
+    Given I am able to go to Google homepage
+    Then I should see search box
+    When I am able to search "Cucumber"
+    Then I should see "Cucumber" in search result
+    
 
-  Scenario: My Second Scenario
-    Given I have 7 cukes in my bellies

@@ -18,31 +18,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Driver implements WebDriver{
 	
-//	private static Driver INSTANCE;
-	
 	private WebDriver driver;
 
-	
 	public Driver( WebDriver driver){
 		this.driver = driver;
 	}
 	
-	// call this method to initialize the browser
 	public void setBrowser(WebDriver driver) {
-//		if(INSTANCE == null){
-//			synchronized (Driver.class) {
-//				INSTANCE = new Driver();
-//		        INSTANCE.driver = driver;				
-		        this.driver = driver;				
-//			}
-//		}
-//		return INSTANCE;
+        this.driver = driver;				
 	}
 	
 	public void clearDriverInstance(){
 		close();
 		quit();
-//		INSTANCE = null;
 	}
 		
 

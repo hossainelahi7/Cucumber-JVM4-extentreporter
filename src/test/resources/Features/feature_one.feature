@@ -3,16 +3,16 @@ Feature: My First Feature
 
   @scenario_one
   Scenario Outline: My First Scenario
-    Given I have <test> cukes in my belly
-    When I print out the results
-    Then I should see seach results
+    Given I am able to go to Google homepage
+    When I am able to search "<search_string>" 
+    Then I should see search results
 
     Examples:
-    | test |
-    | 1    |
-    | 2    |
+    |search_string	|
+    |Maven Sample	|
+    |Cucumber Sample|
 	
   @scenario_two
   Scenario: My Second Scenario
-    Given I have 7 cukes in my bellies
-    Then I print out the results
+    Given I am able to go to cucumber homepage
+    Then I should see cucumber icon

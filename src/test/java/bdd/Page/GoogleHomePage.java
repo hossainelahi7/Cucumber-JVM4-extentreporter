@@ -10,11 +10,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import webDriver.Util.Driver;
 
-public class HomePage {
-	Driver driver;
+public class GoogleHomePage extends Page{
+	private String url = "https://www.google.com/";
 	
-	public HomePage(Driver driver){
-        this.driver = driver;
+	public GoogleHomePage(){
+        super();
+	}
+	
+	public void gotoPage(){
+		driver.get(url);
 	}
 	
 	public WebElement seachBOx(){
