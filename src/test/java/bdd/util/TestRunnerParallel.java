@@ -8,7 +8,7 @@ import cucumber.api.cli.Main;
 
 public class TestRunnerParallel {
 	 
-//	 @Test
+	 @Test
 	public void test() throws Throwable {
 		Main.main(new String[]{
 				"--threads", "4",

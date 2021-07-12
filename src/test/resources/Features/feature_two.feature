@@ -1,3 +1,4 @@
+@Feature_two
 Feature: Second Feature
 
   Scenario: My First Scenario
